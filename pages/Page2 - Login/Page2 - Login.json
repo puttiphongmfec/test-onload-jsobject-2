@@ -1,0 +1,31 @@
+{
+  "gitSyncId": "65c597693afd382938d05fb3_65c59cbf3afd382938d05fc7",
+  "unpublishedPage": {
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 380.0,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0.0,
+          "minHeight": 570.0,
+          "parentColumnSpace": 1.0,
+          "parentRowSpace": 1.0,
+          "rightColumn": 1224.0,
+          "snapColumns": 64.0,
+          "snapRows": 55.0,
+          "topRow": 0.0,
+          "type": "CANVAS_WIDGET",
+          "version": 85.0,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Page2 - Login",
+    "slug": "page2-login"
+  }
+}
