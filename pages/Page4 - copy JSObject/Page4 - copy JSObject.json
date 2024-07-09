@@ -1,31 +1,55 @@
 {
-  "gitSyncId": "65c597693afd382938d05fb3_65c5a6783afd382938d05ff4",
   "unpublishedPage": {
+    "name": "Page4 - copy JSObject",
+    "slug": "page4-copy-jsobject",
     "layouts": [
       {
+        "viewMode": false,
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 380.0,
-          "canExtend": true,
-          "containerStyle": "none",
+          "rightColumn": 1224,
+          "widgetName": "MainContainer",
+          "snapColumns": 64,
           "detachFromLayout": true,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0.0,
-          "minHeight": 570.0,
-          "parentColumnSpace": 1.0,
-          "parentRowSpace": 1.0,
-          "rightColumn": 1224.0,
-          "snapColumns": 64.0,
-          "snapRows": 55.0,
-          "topRow": 0.0,
-          "type": "CANVAS_WIDGET",
-          "version": 85.0,
           "widgetId": "0",
-          "widgetName": "MainContainer"
-        }
+          "bottomRow": 380,
+          "containerStyle": "none",
+          "topRow": 0,
+          "snapRows": 55,
+          "parentRowSpace": 1,
+          "canExtend": true,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "minHeight": 570,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Page4 - copy JSObject_JSObject1.myFun1",
+              "name": "JSObject1.myFun1",
+              "collectionId": "Page4 - copy JSObject_JSObject1",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page4 - copy JSObject",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
       }
     ],
-    "name": "Page4 - copy JSObject",
-    "slug": "page4-copy-jsobject"
-  }
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "65c597693afd382938d05fb3_65c5a6783afd382938d05ff4"
 }

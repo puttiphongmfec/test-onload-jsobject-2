@@ -1,23 +1,4 @@
 {
-  "appIsExample": false,
-  "applicationDetail": {
-    "navigationSetting": {
-      "colorStyle": "light",
-      "itemStyle": "text",
-      "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "sidebar",
-      "orientation": "side",
-      "position": "static",
-      "showNavbar": true,
-      "showSignIn": true
-    }
-  },
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "color": "#C7F3F0",
-  "evaluationVersion": 2,
-  "icon": "stars",
   "pages": [
     {
       "id": "Page1 - Landing",
@@ -36,17 +17,33 @@
       "isDefault": false
     }
   ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "navigationSetting": {
-      "colorStyle": "light",
+      "showNavbar": true,
+      "orientation": "side",
+      "navStyle": "sidebar",
+      "position": "static",
       "itemStyle": "text",
+      "colorStyle": "light",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "sidebar",
-      "orientation": "side",
-      "position": "static",
-      "showNavbar": true,
       "showSignIn": true
     }
-  }
+  },
+  "color": "#C7F3F0",
+  "icon": "stars",
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
 }

@@ -1,60 +1,50 @@
 {
-  "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
-  "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "PRIMARY",
-  "disabledWhenInvalid": false,
-  "displayName": "Button",
-  "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    },
-    {
-      "key": "borderRadius"
-    }
-  ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
-  "hideCard": false,
-  "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-  "isDefaultClickDisabled": true,
-  "isDeprecated": false,
-  "isDisabled": false,
-  "isLoading": false,
-  "isVisible": true,
-  "key": "yy2c0md3l9",
-  "leftColumn": 3,
-  "minWidth": 120,
-  "mobileBottomRow": 7,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 3,
-  "onClick": "{{clearStore()}}",
-  "parentColumnSpace": 12.34375,
-  "parentId": "ab8f1t8t0m",
-  "parentRowSpace": 10,
-  "placement": "CENTER",
-  "recaptchaType": "V3",
-  "renderMode": "CANVAS",
-  "resetFormOnClick": false,
-  "responsiveBehavior": "hug",
-  "rightColumn": 19,
-  "searchTags": [
-    "click",
-    "submit"
-  ],
-  "tags": [
-    "Buttons"
-  ],
-  "text": "Clear Store",
-  "topRow": 2,
-  "type": "BUTTON_WIDGET",
-  "version": 1,
-  "widgetId": "t4pfwjrkhm",
-  "widgetName": "Button2"
+    "resetFormOnClick": false,
+    "boxShadow": "none",
+    "mobileBottomRow": 7,
+    "onClick": "{{clearStore()}}",
+    "widgetName": "Button2",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "displayName": "Button",
+    "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+    "bottomRow": 6,
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 2,
+    "parentRowSpace": 10,
+    "type": "BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 17,
+    "animateLoading": true,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
+    "parentColumnSpace": 12.34375,
+    "dynamicBindingPathList": [
+        {"key": "buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "leftColumn": 3,
+    "isDisabled": false,
+    "text": "Clear Store",
+    "key": "yy2c0md3l9",
+    "isDeprecated": false,
+    "rightColumn": 19,
+    "isDefaultClickDisabled": true,
+    "widgetId": "t4pfwjrkhm",
+    "minWidth": 120,
+    "isVisible": true,
+    "recaptchaType": "V3",
+    "version": 1,
+    "parentId": "ab8f1t8t0m",
+    "tags": ["Buttons"],
+    "isLoading": false,
+    "mobileTopRow": 3,
+    "renderMode": "CANVAS",
+    "responsiveBehavior": "hug",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "disabledWhenInvalid": false,
+    "mobileLeftColumn": 1,
+    "buttonVariant": "PRIMARY",
+    "placement": "CENTER"
 }
